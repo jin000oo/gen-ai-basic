@@ -1,3 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+pymysql
+boto3
+openai
+python-jose[cryptography]
 requests
 python-dotenv
 langchain-community
