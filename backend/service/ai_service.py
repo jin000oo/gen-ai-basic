@@ -59,7 +59,7 @@ class AIService:
 
         return {"prompt": prompt, "image_url": image_url}
 
-    def gen_graph(self,prompt:str):
+    def gen_graph(self, prompt:str):
         workflow = StateGraph(State)
         workflow.add_node("refine_prompt", self.refine_prompt)
         workflow.add_node("translate_prompt", self.translate_prompt)
