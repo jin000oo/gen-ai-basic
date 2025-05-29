@@ -1,1 +1,13 @@
-".env" 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# VSCode
+.vscode/
+.DS_Store
+
+# 기타
+downloads/
